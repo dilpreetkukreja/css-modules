@@ -1,9 +1,9 @@
 import React from 'react';
-import './ComponentA.css'
+import classes from './ComponentA.css'
 
 function ComponentA(){
 	return (
-		<div className='border'>
+		<div className={classes.border}>
 			<button>ComponentA - Button</button>
 		</div>
 	);

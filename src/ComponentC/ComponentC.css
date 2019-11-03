@@ -1,0 +1,6 @@
+.border button{
+	color: blue;
+}
+.border{
+	border: 2px solid blue;
+}

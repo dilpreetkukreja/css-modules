@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './ComponentB.css'
+import classes from './ComponentC.css'
 
-function componentB(){
+function componentC(){
 	return (
 		<div className={classes.border}>
 			<button>ComponentB - Button</button>
@@ -9,4 +9,4 @@ function componentB(){
 	);
 }
 
-export default componentB;
+export default componentC;
